@@ -10,6 +10,7 @@ void passoavanti(int v[], int n) {
 
     v[0] = 0;
 }
+
 int main (){
 
     int dim;

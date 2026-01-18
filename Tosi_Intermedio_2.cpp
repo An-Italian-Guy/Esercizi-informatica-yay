@@ -23,6 +23,7 @@ int main (){
 
     passoavanti(v, dim);
     for (int i = 0; i < dim; i++) {
-    cout << v[i] << endl;}
+        cout << v[i] << " ";}
+    cout << endl;
 
 }

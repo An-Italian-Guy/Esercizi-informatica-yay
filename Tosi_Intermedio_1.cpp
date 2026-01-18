@@ -27,19 +27,19 @@ bool is_a_set(int v[], int n) {
 
 int main (){
 
-int dim;
-cout << "quanto e' grande l'array?" << endl;
-cin >> dim;
-int v[dim];
-for (int i = 0; i < dim; i++) {
-cout << "inserisci i valori nell'array" << endl;
-cin >> v[i];
-}
+    int dim;
+        cout << "quanto e' grande l'array?" << endl;
+        cin >> dim;
+        int v[dim];
+        for (int i = 0; i < dim; i++) {
+            cout << "inserisci i valori nell'array" << endl;
+            cin >> v[i];
+        }
 
-if (is_a_set(v, dim)) {
-cout << "gli elementi nell'array sono unici" << endl;
-}else {
-cout << "gli elementi nell'array non sono unici" << endl;
-}
+        if (is_a_set(v, dim)) {
+            cout << "gli elementi nell'array sono unici" << endl;
+        }else {
+            cout << "gli elementi nell'array non sono unici" << endl;
+        }
 
 }
